@@ -39,7 +39,7 @@ public class Main {
 				gerenciadorDeFilmes.search();
 				
 			} else if (op == 4) {
-				gerenciadorDeFilmes.print();
+				gerenciadorDeFilmes.toString();
 				
 			}
 			
