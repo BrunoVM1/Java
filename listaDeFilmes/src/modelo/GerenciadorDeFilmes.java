@@ -65,9 +65,11 @@ public class GerenciadorDeFilmes {
 
 	}
 
-	public void print() {
-		lista.forEach((filme) -> System.out.println(filme.toString())); 			
-		}
+	@Override
+	public String toString() {
+		lista.forEach((filme) -> System.out.println(filme.toString()));
+		return "";
+	}
 	
 
 }
