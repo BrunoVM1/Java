@@ -76,7 +76,7 @@ public class Filme {
 		s += "Titulo: " + this.titulo + "\n";
 		s += "Duracao: " + this.duracao + "\n";
 		s += "Preco: " + this.preco + "\n";
-		s += "-----------------------------" + "\n" + "\n";
+		s += "-----------------------------" + "\n";
 
 		return s;
 	}
